@@ -1,0 +1,2 @@
+#!/bin/bash
+Echo $((‘echo $PATH | grep -0 “:/“ | wc -1’+1))
